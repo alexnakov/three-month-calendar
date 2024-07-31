@@ -1,0 +1,73 @@
+body {
+    height: 100vh;
+    background-color: aqua;
+  }
+  
+h1,h2 { text-align: center;}
+
+.calendar-container {
+background-color: red;
+height: 60vh;
+width: 80%;
+margin: auto;
+}
+
+.btns-month-container {
+background-color: blueviolet;
+height: 7vh;
+}
+
+.btns-month-container > .wrapper {
+display: flex;
+justify-content: space-between;
+
+}
+
+.days-container {
+width: 100%;
+height: 100%;
+}
+
+table {
+table-layout: fixed;
+height: 87.5%;
+width: 100%;
+}
+
+table td {
+text-align: center;
+vertical-align: top;
+overflow: hidden;
+position: relative;
+}
+
+table td > div {
+position: absolute;
+width: 90%;
+height: 45%;
+border: 1px solid black;
+}
+
+table td > div {
+position: absolute;
+width: 95%;
+height: 46.5%;
+border: 1px solid black;
+line-height: 32px;
+}
+
+td {
+border: 1px solid yellow;
+}
+
+table td :nth-child(2) {
+top: 50%
+}
+
+.date {
+    background-color: blanchedalmond;
+}
+
+.lowest-price {
+    background-color: darksalmon;
+}
