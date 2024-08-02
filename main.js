@@ -86,7 +86,7 @@ function setCalendarTable(date) {
 function clearSpecialDays() {
   const allTDtagsTop = document.querySelectorAll(`td>div.date`)
   for (let tag of allTDtagsTop) {
-    tag.style.backgroundColor = 'red'
+    tag.style.backgroundColor = 'darksalmon'
   }
 }
 
