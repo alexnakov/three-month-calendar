@@ -57,6 +57,7 @@ function setCalendarTable(date) {
   const dayOfTheWeek1st = dateObjPassed.getDay() // Monday, Tues, Wed etc... as 0 - 6 incl
 
   document.getElementById('current-month').textContent = monthsArray[date.getMonth()]
+  document.getElementById('current-year').textContent = String(date.getFullYear())
 
   if (dayOfTheWeek1st - 1 > 0) { // i.e if its NOT monday
     dateObjPassed.setDate(dateObjPassed.getDate() - (dayOfTheWeek1st - 1))
